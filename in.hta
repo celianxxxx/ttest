@@ -4,12 +4,13 @@
 <HTA:APPLICATION icon="#" WINDOWSTATE="minimize" SHOWINTASKBAR="no" SYSMENU="no"  CAPTION="no" />
 </head>
 <script>
- var c= 'cmd.exe /c ping 1.1.1.1'
+ var c= 'powershell.exe /c New-Item -Path NewLog.txt" -ItemType File'
  new ActiveXObject('WScript.Shell').Run(c);
  
 
 </script>
 </body>
 </html>
+
 
 
